@@ -1,6 +1,8 @@
 package br.net.ti2;
 
-public class Bicycle {
+import lombok.Data;
+
+public @Data class Bicycle {
     int cadence = 0;
 
     void changeCadence(int newCadence){
