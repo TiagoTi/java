@@ -17,6 +17,7 @@ public class App
         bike_green.speedUp(10);
         System.out.println( bike_green.toString() );
         bike_green.applyBrakes(2);
+        bike_green.changeGear(2);
         System.out.println( bike_green.toString() );
     }
 }
