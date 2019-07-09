@@ -22,4 +22,8 @@ public @Data class Bicycle {
    void changeGear(int newGear){
        gear = newGear;
    }
+
+   void printStates(){
+       System.out.println(toString());
+   }
 }
