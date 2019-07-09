@@ -9,9 +9,14 @@ public class App
 {
     public static void main( String[] args )
     {
-        Bicycle b = new Bicycle();
-        System.out.println( b.toString() );
-        b.changeCadence(2);
-        System.out.println( b.toString() );
+        Bicycle bike_green = new Bicycle();
+        Bicycle bike_orange = new Bicycle();
+
+        System.out.println( bike_green.toString() );
+        bike_green.changeCadence(2);
+        bike_green.speedUp(10);
+        System.out.println( bike_green.toString() );
+        bike_green.applyBrakes(2);
+        System.out.println( bike_green.toString() );
     }
 }

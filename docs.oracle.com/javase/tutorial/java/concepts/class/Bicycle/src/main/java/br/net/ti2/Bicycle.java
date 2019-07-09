@@ -4,12 +4,17 @@ import lombok.Data;
 
 public @Data class Bicycle {
     int cadence = 0;
+    int speed = 0;
 
     void changeCadence(int newCadence){
         this.cadence = newCadence;
     }
 
-    public String state(){
-        return "Cadence: " + this.cadence;
-    }
+    void speedUp(int increment) {
+        speed += increment;   
+   }
+
+   void applyBrakes(int decrement) {
+        speed -= decrement;
+   }
 }
