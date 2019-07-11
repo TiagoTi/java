@@ -8,6 +8,15 @@ public class ArrayDemo {
 
 		// allocates memory for 3 integers.
 		myIntArray = new int[3];
+		
+		// initialize first element
+		myIntArray[0] = 100;
+
+        // initialize second element
+		myIntArray[1] = 200;
+		
+		// initialize third element
+		myIntArray[2] = 300;
 	}
 
 }
