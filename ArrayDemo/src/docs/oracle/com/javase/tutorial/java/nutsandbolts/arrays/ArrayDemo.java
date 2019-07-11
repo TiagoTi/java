@@ -6,7 +6,7 @@ public class ArrayDemo {
 		// declares an array of integers
 		int[] myIntArray;
 
-		// allocates memory for 3 integers
+		// allocates memory for 3 integers.
 		myIntArray = new int[3];
 	}
 
